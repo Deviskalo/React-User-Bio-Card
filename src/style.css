@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@200;300;700&display=swap');
+
+#profile-container {
+  font-family: 'REM', sans-serif;
+  background: #78c1f3;
+  width: 75%;
+  margin: 40px auto;
+  padding: 1.75rem;
+}
+
+#profile-avatar {
+  margin: 0px auto;
+  background: #9be8d8;
+  color: #383838;
+  padding: 10px;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #f7fdc7;
+  border-radius: 50%;
+}
+
+#profile-title {
+  line-height: 5px;
+  margin-top: 0px;
+  text-align: center;
+  color: #f8fdcf;
+}
+
+#profile-bio {
+  margin-top: 10%;
+  text-align: justify;
+  color: #f8fdcf;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  height: 20px;
+  margin: auto 1px;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-container:hover {
+  background-color: #7bf3dbcc;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.btns {
+  display: flex;
+  padding: 10px;
+  margin-left: 40px auto;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+img {
+  /* border-radius: 29px; */
+  display: flex;
+  margin: auto -7px;
+  padding: 5px 3px;
+  width: 35px;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #f7fdc7;
+  border-radius: 10px;
+  width: 0px 8px;
+  padding: 14px -10px;
+  margin: 20px 10px;
+  font-size: 14px;
+  background: #9be8d8;
+}
